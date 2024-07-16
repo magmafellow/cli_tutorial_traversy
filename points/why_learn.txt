@@ -1,0 +1,7 @@
+Why learn to use The CLI / Terminal
+
+1. Greater Control (You can do things that you typically can not do with GUI)
+2. Speed & Efficiency
+3. Access Remote Servers
+4. Command Line Tools (Some tools are not gui-based)
+gitgitgitgitgitgitgitgitgitgit
