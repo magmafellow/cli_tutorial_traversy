@@ -1,0 +1,6 @@
+
+~ = home path
+
+Files starting with "." are hidden files
+
+ls -l -a === ls -al === ls -la (You don't have to have two hyphen)

@@ -1,0 +1,13 @@
+
+
+* Up & Down Arrow Keys = Previous & Next typed commands
+
+Tab Key = Autocomplete
+
+CTRL + L = Clear shell window
+
+CTRL + C = Go to the next line and not to execute present line
+
+CTRL + R = Search
+
+CTRL + D = Close out the whole Terminal

@@ -1,0 +1,88 @@
+
+----------------useful----------------
+
+* man (manual)
+  > man ls   \n synonym = ls --help
+
+* whoami (user you are logged in)
+  > whoami
+
+* date (date and time)
+
+* clear
+
+----------------------------------------
+
+
+-----------------navigation----------------
+* pwd (prints working directory)
+
+* ls (LiSt folder and files, accpets many flags)
+* ls [dirname]
+* ls -a (hidden files shown)
+* ls -l (long, some extra information)
+
+
+* cd [dirname]
+* cd / (go to root of the machine)
+* cd (go home)
+* cd - (last folder I was in)
+
+* open [dirname] (open in finder)
+* start = open in Windows
+
+-------------------------------------------
+
+------------creating files--------------
+
+* mkdir [dirname] (creates directory)
+* mkdir first-folder
+
+* touch [filename] (creates files)
+* touch index.html
+* touch file1.txt file2.txt file3.txt
+
+* rm [filename] (removes files)
+* rm file1.txt
+* rm -r [dirname] (to remove empty directory)
+* rm -rf [dirname] (to remove non-empty directory) [!dangerous command]
+
+* cp [filename] [filename] (copy files)
+
+* mv [filename filename] (moves files)
+* mv [dirname dirname] (moves dirs)
+
+* cat [filename] (read a file and shows it)
+* cat > [filename] (write some data in [filename])
+* cat >> [filename] (append some data in [filename])
+* cat [filename] -n (show line numbers)
+
+* less [filename] (reads a file, shows a content and let us scroll it)
+
+* head [filename] (reads first ten lines and shows it)
+* head -n 5 [filename] (reads first FIVE lines and shows them)
+* tail [filename] (reads last ten lines and shows it)
+
+* nano [filename] (built-in terminal-based text editor)
+
+* echo [output] > [filename] (to write output to file)
+* echo "Hello World" > info.txt
+
+-----------------------------------------
+
+---------------- search --------------------
+
+* grep [searchterm] [filename]
+* find [dirname] -name [pattern]
+
+--------------------------------------------
+
+* find . -name "file-*" > output.txt (piping - redirection of the output. We write the result to output.txt)
+
+* tar -czvf [tarballfilename] [filename] (compress directory)
+* tar -tzvf [tarballfilename] (shows contens of tar)
+* tar -xzvf [tarballfilename] (extracts contents of tar)
+
+* history
+* ![history_id]
+* !333
